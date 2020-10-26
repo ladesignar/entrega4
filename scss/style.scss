@@ -1,0 +1,264 @@
+nav {padding: 1em;
+   color:#32e0c4;
+text-align: right; 
+font-weight: bold;
+font-family: 'Overpass', sans-serif;
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;}
+
+  li a {
+
+  color: white;
+
+  display: block;
+
+  text-decoration: none;
+
+  padding: .5em 1em;}
+
+
+        li a:hover {
+
+        background: #32e0c4;
+
+        color: #222831;
+
+        text-decoration: none;
+                   
+
+
+}
+
+  ul {
+    display: flex;
+    justify-content:flex-start;}}
+
+.body{
+background-color:#222831; 
+max-width: 1200px;
+margin: auto;
+
+}
+.texto {
+	color: #eeeeee; 
+ 	font-size: 16px;
+	text-align: right;
+	font-family: 'Overpass', sans-serif;
+	display: inline-block;
+	float: right;	
+ }
+
+ .texto2{
+		color: #eeeeee;
+ 	font-style: bold;
+ 	font-size: 16px;
+	text-align: right;
+	font-family: 'Overpass', sans-serif;
+
+
+
+	}
+
+.textoCarrousel {
+    color: #eeeeee; 
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    display: inline-block;
+      
+ }
+	.indp{ color: red;
+
+} 
+
+.titulo{
+	color: #32e0c4;
+	font-style: italic;
+    font-size: 25px;
+}
+footer div{
+    height: 50px;
+      display: flex;
+    justify-content: space-between;   
+}
+footer span{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    font-family: overpass-bold, sans-serif;
+    color:#32e0c4;
+
+}
+
+#pie{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    
+}
+#pie #insta, #pie #linke{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-position: 0px 0px;
+
+}
+
+#pie #beha{
+	width: 25px;
+	height: 20px;
+	margin: 5px;
+	background-position: 0px 0px;
+}
+
+#pie #insta:hover {
+	transform: scale(1.2);
+	
+ }
+#pie #beha:hover {
+	transform: scale(1.2);
+ }
+
+#pie #linke:hover {
+	transform: scale(1.2);
+ }
+
+ * {
+    box-sizing: border-box;
+}
+
+body {
+     color: #fff;
+    line-height: 1.6;
+    font-family: 'Overpass', sans-serif;
+    padding: 0 1.5em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.logo span {
+    color: #32e0c4;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+   label {
+    display: block;}
+    p {
+    margin: 0;
+    padding: 1em;}
+     .block {
+    grid-column: 1 / 3;
+}
+button,input,textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #eeeeee;
+    border-bottom: 1px solid #32e0c4;
+}
+button {
+    background: #32e0c4;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}}
+.contact-info {
+    background: #393e46;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    h4,ul,p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+}
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+.logoLa {
+	padding: 10px
+	margin 10px;
+	margin-top: 20px;
+}
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; 
+.pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+}
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+.aboutme{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-gap: 250px;
+}
+@media (max-width: 700px) {
+.aboutme {
+display: grid;
+grid-template-columns: 300px;
+grid-row-gap: 20px;
+}
+}
